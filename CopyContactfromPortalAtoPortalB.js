@@ -68,24 +68,3 @@ hubspotClient.crm.owners.defaultApi.getById(hubspot_owner_id, 'id', false).then(
       throw err;
     });
 }
-
-/* A sample event may look like:
-{
-  "origin": {
-    // Your portal ID
-    "portalId": 1,
-
-    // Your custom action definition ID
-    "actionDefinitionId": 2,
-  },
-  "object": {
-    // The type of CRM object that is enrolled in the workflow
-    "objectType": "CONTACT",
-
-    // The ID of the CRM object that is enrolled in the workflow
-    "objectId": 4,
-  },
-  // A unique ID for this execution
-  "callbackId": "ap-123-456-7-8"
-}
-*/
